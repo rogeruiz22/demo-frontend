@@ -15,7 +15,7 @@ jobs:
           sleep 10s
       - uses: rogeruiz22/demo-backend@master
         with:
-          owner: rogeruiz
+          owner: roger uiz
           repo: demo-backend
           github_token: ${{ secrets.G_ACCESS_TOKEN }}
           worflow_file_name: master.yml
