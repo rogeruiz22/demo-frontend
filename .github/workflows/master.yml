@@ -13,7 +13,7 @@ jobs:
         run: |
           echo "Build Web App"
           sleep 10s
-      - uses: rogeruiz22/trigger-workflow-and-wait@v1.3.0
+      - uses: rogeruiz22/demo-backend@master
         with:
           owner: rogeruiz
           repo: demo-backend
